@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <excel name="VIP表.xlsx">
+    <sheet>VIP表</sheet>
+    <sheet>VIP限购表</sheet>
+    <sheet>特权表</sheet>
+  </excel>
+  <excel name="仆从数值表.xlsx">
+    <sheet>Sheet1</sheet>
+    <sheet>主角升级表</sheet>
+    <sheet>仆从属性表</sheet>
+    <sheet>升级经验惩罚</sheet>
+  </excel>
+  <excel name="关卡表.xlsx">
+    <sheet>关卡基础表</sheet>
+    <sheet>关卡怪物表</sheet>
+    <sheet>场景表</sheet>
+  </excel>
+  <excel name="初始化配置表.xlsx">
+    <sheet>初始化配置表</sheet>
+    <sheet>开场战斗配置表</sheet>
+  </excel>
+  <excel name="升级开放功能表.xlsx">
+    <sheet>时间限制表</sheet>
+    <sheet>系统等级表</sheet>
+  </excel>
+  <excel name="客户端战斗表现表.xlsx">
+    <sheet>位移效果表</sheet>
+    <sheet>卡牌动作表</sheet>
+    <sheet>战斗信息表</sheet>
+    <sheet>技能表现表</sheet>
+    <sheet>版本记录</sheet>
+    <sheet>特效组表</sheet>
+    <sheet>特效表</sheet>
+  </excel>
+  <excel name="常量表.xlsx">
+    <sheet>常量表</sheet>
+  </excel>
+  <excel name="怪物表.xlsx">
+    <sheet>Sheet1</sheet>
+    <sheet>怪物原型表</sheet>
+    <sheet>怪物掉落表</sheet>
+    <sheet>怪物数据表</sheet>
+    <sheet>怪物组表</sheet>
+  </excel>
+  <excel name="技能表.xlsx">
+    <sheet>工作表1</sheet>
+    <sheet>技能数据表</sheet>
+    <sheet>技能表现表</sheet>
+    <sheet>状态表</sheet>
+  </excel>
+  <excel name="提示表.xlsx">
+    <sheet>客户端提示表</sheet>
+    <sheet>服务端提示表</sheet>
+  </excel>
+  <excel name="数值公式表.xlsx">
+    <sheet>Sheet3</sheet>
+    <sheet>基础属性公式表</sheet>
+    <sheet>客户端公式表</sheet>
+    <sheet>服务端公式表</sheet>
+  </excel>
+  <excel name="武将上阵装备.xlsx">
+    <sheet>武将上阵</sheet>
+    <sheet>装备解锁</sheet>
+  </excel>
+  <excel name="物品表.xlsx">
+    <sheet>物品总表</sheet>
+    <sheet>物品组表</sheet>
+    <sheet>礼包表</sheet>
+  </excel>
+  <excel name="装扮表.xlsx">
+    <sheet>装扮类型表</sheet>
+  </excel>
+  <excel name="阵法表.xlsx">
+    <sheet>阵法相克表</sheet>
+    <sheet>阵法经验表</sheet>
+    <sheet>阵法表</sheet>
+    <sheet>阵眼表</sheet>
+  </excel>
+</root>

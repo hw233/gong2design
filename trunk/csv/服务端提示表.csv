@@ -1,0 +1,15 @@
+交互检查规则,,,,,,,
+导出规则,,,,,,"charMap=tstitle,title
+charMap=ts26,content",
+分类,,,,,,,
+表头,编号,类型,标题,显示次数限制,显示拥有数量,内容,描述
+关键字标识,Y,,,,,,
+唯一标识,Y,,,,,,
+非空标识,Y,,,,,,
+检查规则,,,,,,,
+变量名称,id,kind,title,limitNum,ownNum,content,
+变量类型,I,I,S,I,I,S,
+变量空间,cs,c,c,c,c,cs,
+,,,,,,,
+BEGIN,服务端提示表,server_tishi_data,,,,,
+,10000,2,,,,小主名字输入不正确,

@@ -1,0 +1,14 @@
+交互检查规则,,,,,,,,,,,,,,,,,,,,,,,,
+导出规则,,,,,,,,,,,,,,,,,,,,,,,,
+分类,触发器相关,,,,,,,条件元件,,,,,,,,,动作元件,,,,,,,
+表头,触发器编号,触发器类型,相关条件组,触发器元件,触发器参数1,触发器参数2,触发器参数3,条件关系,条件元件1,条件元件1参数1,条件元件1参数2,条件元件1参数3,条件元件2,条件元件2参数1,条件元件2参数2,条件元件2参数3,动作元件1,动作元件1参数1,动作元件1参数2,动作元件1参数3,动作元件2,动作元件2参数1,动作元件2参数2,动作元件2参数3
+关键字标识,Y,,,,,,,,,,,,,,,,,,,,,,,
+唯一标识,Y,,,,,,,,,,,,,,,,,,,,,,,
+非空标识,Y,,,,,,,,,,,,,,,,,,,,,,,
+检查规则,,,"#eref(任务条件表,id)",,,,,,,,,,,,,,,"#eref(任务条件表,id)",,,,,,
+变量名称,id,triggerType,targetIds,triggerName,triggerArg1,triggerArg2,triggerArg3,conExpression,condition1,condition1Arg1,condition1Arg2,condition1Arg3,condition2,condition2Arg1,condition2Arg2,condition2Arg3,action1,action1Arg1,action1Arg2,action1Arg3,action2,action2Arg1,action2Arg2,action2Arg3
+变量类型,I,I,E,S,E,E,E,E,S,E,E,E,S,E,E,E,S,E,E,E,S,E,E,E
+变量空间,cs,s,cs,s,s,s,s,s,s,s,cs,s,s,s,s,s,s,s,s,s,s,s,s,s
+,,,,,,,,,,,,,,,,,,,,,,,,
+BEGIN,任务触发表,mission_chufa_data,,,,,,,,,,,,,,,,,,,,,,
+成功挑战普通关卡20/40/60/80/100次,20000,2,"(20000,200000,200001,200002,200003,)",gkCompleteTrigger,,,,"(True,)",gte,"""$context$1""",1,,,,,,incVar,"(20000,200000,200001,200002,200003,)","""dayPtgkNum""",1,,,,
